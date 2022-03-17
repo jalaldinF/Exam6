@@ -9,7 +9,7 @@ class UserDB (
     @PrimaryKey
     val id:String,
 
-    val card_number:Int,
+    val card_number:String,
     val owner_name:String,
     val end_date:String,
 

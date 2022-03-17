@@ -35,7 +35,7 @@ class CardListActivity : AppCompatActivity() {
         val name =  et_name.text.toString()
         val number = et_number.text.toString()
 
-        card = Card(number.toInt(),name,"55/58")
+        card = Card(number,name,"555")
 
         btn_add.setOnClickListener {
 
