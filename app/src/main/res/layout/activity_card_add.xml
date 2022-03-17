@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".activties.list.CardListActivity">
+
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_width="350dp"
+        android:layout_height="200dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#C73FE3">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6565 6565 454"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.447" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asror Ganiev"
+                android:textColor="#cbcbcb"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.063"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.909" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="05/22"
+                android:textColor="#cbcbcb"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.936"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.909" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <EditText
+        android:id="@+id/et_number"
+        android:hint=" Your Card Number"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+   <EditText
+       android:id="@+id/et_name"
+        android:hint=" Card Holder Name"
+        android:background="@drawable/rounded"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"/>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:text="Add New Card"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"/>
+
+
+</LinearLayout>
